@@ -10,7 +10,7 @@ Proyek ini adalah sebuah sistem pemantauan suhu dan kelembaban berbasis web yang
 
 - **Pemantauan Suhu dan Kelembaban Real-Time**: Data suhu dan kelembaban yang diperoleh dari sensor DHT11 akan dikirimkan secara otomatis ke web monitoring.
 - **Antarmuka Web yang Intuitif**: Dibangun menggunakan CodeIgniter 3, antarmuka web ini mudah digunakan dan dapat diakses dari berbagai perangkat.
-- **Grafik Data**: Menampilkan data suhu dan kelembaban dalam bentuk grafik untuk memudahkan analisis.
+- **Grafik Data**: Menampilkan data suhu dan kelembaban dalam bentuk grafik untuk memudahkan analisis. 
 
 ---
 
