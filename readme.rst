@@ -1,71 +1,30 @@
-###################
-What is CodeIgniter
-###################
+# Monitoring Suhu dan Kelembaban dengan Sensor DHT11
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+## Deskripsi Proyek
 
-*******************
-Release Information
-*******************
+Proyek ini adalah sebuah sistem pemantauan suhu dan kelembaban berbasis web yang menggunakan sensor DHT11. Data yang dikumpulkan oleh sensor akan dikirimkan ke server dan ditampilkan pada antarmuka web yang dibangun menggunakan framework CodeIgniter 3. Sistem ini dirancang untuk memberikan kemudahan dalam memantau kondisi lingkungan secara real-time.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+---
 
-**************************
-Changelog and New Features
-**************************
+## Fitur Utama
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+- **Pemantauan Suhu dan Kelembaban Real-Time**: Data suhu dan kelembaban yang diperoleh dari sensor DHT11 akan dikirimkan secara otomatis ke web monitoring.
+- **Antarmuka Web yang Intuitif**: Dibangun menggunakan CodeIgniter 3, antarmuka web ini mudah digunakan dan dapat diakses dari berbagai perangkat.
+- **Grafik Data**: Menampilkan data suhu dan kelembaban dalam bentuk grafik untuk memudahkan analisis.
 
-*******************
-Server Requirements
-*******************
+---
 
-PHP version 5.6 or newer is recommended.
+## Teknologi yang Digunakan
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+### Perangkat Keras
+- **Sensor DHT11**: Untuk mengukur suhu dan kelembaban.
+- **Mikrokontroler (contoh: Arduino atau NodeMCU)**: Untuk membaca data dari sensor dan mengirimkannya ke server melalui koneksi internet.
 
-************
-Installation
-************
+### Perangkat Lunak
+- **Framework CodeIgniter 3**: Digunakan untuk membangun aplikasi web monitoring.
+- **Database MySQL**: Untuk menyimpan data suhu dan kelembaban.
+- **AJAX dan jQuery**: Untuk pembaruan data secara dinamis tanpa memuat ulang halaman.
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
 
-*******
-License
-*******
+---
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
